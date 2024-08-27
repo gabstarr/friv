@@ -8,13 +8,13 @@
 <body>
     <form action="" method="post">
         <p>Digite seu nome:</p>
-        <input type="text" name="nome" placeholder="Bora Bill">
+        <input type="text" name="nome" placeholder="Bora Bill" required>
         <br>
         <p>Digite seu gmail:</p>
         <input type="email" name="gmail" value="@escola.pr.gov.br" placeholder="henrique.nascimente@escola.pr.gov.br">
         <br>
         <p>Digite seu número de telefone:</p>
-        <input type= "number" name="número">
+        <input type= "number" name="número" required>
         <br>
         <p>Você trabalha?</p>
         <input type="radio" name="work" value="sim" checked> Sim
@@ -54,7 +54,7 @@
         <p>Deixe aqui a sua reclamação</p>
         <textarea name="feedback"></textarea>
         <br>
-        <input type="checkbox" name="novidades" checked> Aceito receber novidades
+        <input type="checkbox" name="novidades" required checked> Aceito receber novidades
         <br>
         <button type="submit">Enviar</button>
         <button type="reset">Apagar</button>
